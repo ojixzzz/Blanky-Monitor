@@ -110,8 +110,9 @@ class MainView(QWidget):
         label9.setStyleSheet("background-color: #c0392b; font-size:20px; color:#000;")
         label9.setText("<span style='font-size:28pt;'>Transaksi Laundry<br/>(Today):<br/></span><span style='font-size:80pt;'>0</span>")
 
-        self.setGeometry(300, 300, 350, 300)
-        self.setWindowTitle('Monit1010')    
+        #self.setGeometry(300, 300, 350, 300)
+        self.setWindowTitle('Monit1010')  
+        self.showFullScreen()  
         self.show()
 
     def updateData(self, data):
