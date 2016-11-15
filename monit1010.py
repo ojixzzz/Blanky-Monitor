@@ -44,6 +44,9 @@ class MainView(QWidget):
         chart.haxis_vmin = 1.0
         chart.haxis_vmax = 3.0
         chart.haxis_step = 1
+
+        chart.vaxis_vmin = 0
+
         chart_viewer = Viewer()
         chart_viewer.set_graph(chart)
         p = chart_viewer.palette()
