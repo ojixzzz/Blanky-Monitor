@@ -1,2 +1,4 @@
 PyQtCharts/*
 config.py
+*.pyc
+.DS_Store
