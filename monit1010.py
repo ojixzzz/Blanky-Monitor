@@ -38,6 +38,7 @@ class MainView(QWidget):
         table.add_row(data[0])
         table.add_row(data[1])
         table.add_row(data[2])
+        table.add_row([ 4.00, 0])
 
         chart = LineChart(table)
         chart.set_horizontal_axis_column(0)
@@ -45,8 +46,6 @@ class MainView(QWidget):
         chart.haxis_vmin = 1.0
         chart.haxis_vmax = 3.0
         chart.haxis_step = 1
-
-        chart.vaxis_vmin = 0
 
         chart_viewer = Viewer()
         chart_viewer.set_graph(chart)
