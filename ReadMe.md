@@ -13,6 +13,7 @@ Blanky Traffic Monitor / Digital Signage Python + PyQt5 + Love for Raspberry Pi 
 - apt-get install python3-pyqt5 (in ubuntu)
 - git clone https://github.com/maxdesp/PyQtCharts.git
 - pip3 install requests
+- create file config.py (api setting)
 
 ## Run
 - python3 monit1010.py
